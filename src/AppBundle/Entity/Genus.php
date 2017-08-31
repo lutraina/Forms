@@ -121,6 +121,11 @@ class Genus
         return $this->notes;
     }
 
+	public function getIsPublished()
+    {
+        return $this->isPublished;
+    }
+    
     public function getFirstDiscoveredAt()
     {
         return $this->firstDiscoveredAt;
