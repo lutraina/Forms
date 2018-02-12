@@ -18,6 +18,8 @@ class GenusController extends Controller
      */
     public function newAction()
     {
+		
+		//j'ai ajouté cette ligne ici
         $genus = new Genus();
         $genus->setName('Octopus'.rand(1, 100));
         $genus->setSubFamily('Octopodinae');
