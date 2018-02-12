@@ -23,6 +23,8 @@ class GenusController extends Controller
 		//deuixième ligne
 		//troisième ligne
 		//cinquième ligne
+		//quatrième ligne
+
         $genus = new Genus();
         $genus->setName('Octopus'.rand(1, 100));
         $genus->setSubFamily('Octopodinae');
