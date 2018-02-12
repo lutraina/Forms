@@ -16,6 +16,7 @@ class GenusAdminController extends Controller
     /**
      * @Route("/genus", name="admin_genus_list")
      */
+	 //////////// deu certo ?
     public function indexAction()
     {
         $genuses = $this->getDoctrine()
