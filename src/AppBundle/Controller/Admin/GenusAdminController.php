@@ -14,6 +14,7 @@ use Symfony\Component\HttpFoundation\Request;
 class GenusAdminController extends Controller
 {
 	//ajout de commentaire
+	//ajout de commentaire2
     /**
      * @Route("/genus", name="admin_genus_list")
      */
