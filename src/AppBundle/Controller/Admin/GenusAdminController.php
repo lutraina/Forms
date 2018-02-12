@@ -15,10 +15,10 @@ class GenusAdminController extends Controller
 {
 	//ajout de commentaire
 	//ajout de commentaire2
+	//ajout de commentaire3
     /**
      * @Route("/genus", name="admin_genus_list")
      */
-	 //////////// deu certo ?
     public function indexAction()
     {
         $genuses = $this->getDoctrine()
